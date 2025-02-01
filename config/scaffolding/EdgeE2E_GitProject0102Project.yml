@@ -7,3 +7,12 @@ packages:
   gitUrl: https://github.com/ArtiKhareIBM
   gitUsername: ArtiKhareIBM
   gitBranch: main
+services:
+- serviceName: project.edgee2e_gitproject0102.integrations:gcd_0102
+  packages:
+  - name: EdgeE2E_GitProject0102Project
+    version: "1.0"
+- serviceName: pub.date:getCurrentDate
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.1
